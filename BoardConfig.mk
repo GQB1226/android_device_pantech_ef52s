@@ -27,9 +27,6 @@
 COMMON_GLOBAL_CFLAGS += -DEF52S -DNEED_UMS_ENABLE
 COMMON_GLOBAL_CFLAGS += -DQCOM_ICS_COMPAT
 
-# inherit from common msm8960
--include device/pantech/msm8960-common/BoardConfigCommon.mk
-
 # Init
 TARGET_PROVIDES_INIT_RC := true
 
